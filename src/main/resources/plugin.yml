@@ -1,0 +1,16 @@
+name: BuddingAmethystBreaker
+version: '1.0.0'
+main: com.tmpnetwork.buddingamethystbreaker.BuddingAmethystBreaker
+api-version: '26.3'
+description: Adds a custom item that can break budding amethyst.
+
+commands:
+  amethystbreaker:
+    description: Gives the Budding Amethyst Breaker.
+    usage: /amethystbreaker give [player]
+    permission: buddingamethystbreaker.give
+
+permissions:
+  buddingamethystbreaker.give:
+    description: Allows giving the Budding Amethyst Breaker.
+    default: op
